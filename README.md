@@ -177,6 +177,12 @@ Feedback: The fan must be ON before its speed can be changed.
 Status: {'device': 'Bedroom', 'type': 'fan', 'power': 'off', 'speed': None}
 ```
 
+## Running the Interactive Demo
+
+```
+python3 smart_home_cli.py --show-structured
+```
+
 ## Requirements
 
 - Python 3.10 or later recommended
