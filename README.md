@@ -38,6 +38,9 @@ The application parses each request into a structured command and then maps that
   - `The light is now ON.`
   - `The fan speed is set to high.`
   - `The thermostat is set to 24°C.`
+ 
+- `smart_home_cli.py`
+  Provides an interactive command-line demo for the smart home application, allowing users to type natural language commands and see device responses in real time.
 
 - `requirements.txt`
   Lists the Python dependencies needed to run the project.
