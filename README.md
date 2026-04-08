@@ -31,7 +31,7 @@ The application parses each request into a structured command and then maps that
   - `Thermostat`
 
 - `command_parser.py`
-  Uses a Hugging Face zero-shot classification pipeline to interpret natural language and convert it into a `StructuredCommand`.
+  This code contains the integration of an NLP AI model. It uses a Hugging Face zero-shot classification pipeline to interpret natural language and convert it into a `StructuredCommand`.
 
 - `smart_home_controller.py`
   Maps parsed commands to device actions and generates user feedback such as:
